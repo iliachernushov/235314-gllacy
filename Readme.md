@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Ilya Chernyshov](https://up.htmlacademy.ru/htmlcss/14/user/235314).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев](https://up.htmlacademy.ru/htmlcss/14/user/86119).
 
 ---
 
