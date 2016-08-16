@@ -1,0 +1,31 @@
+.body {
+	font-size: 16px;
+	line-height: 22px;
+	color: #5a5a5a;
+	/* font-weight: Regular;
+	font-family: Roboto Regular; */
+}
+
+.promo {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 35px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: Bold;
+	font-family: Roboto Bold;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #323232;
+	font-weight: Medium;
+	font-family: Roboto Medium;
+}
+
+
+
