@@ -1,5 +1,10 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 header {
-	width: 1200px;
+	width: 1152px;
 	padding-left: 21px;
 	padding-right: 27px;
 	outline: 1px solid red;
@@ -19,6 +24,7 @@ header > a {
 	display: inline-block;
 	background-color: green;
 	font-size: 16px;
+	padding: 0px;
 }
 
 .user_panel {
@@ -28,14 +34,15 @@ header > a {
 	background-color: yellow;
 	font-size: 16px;
 	text-align: right;
+	padding: 0px;
 }
 
 .promo {
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 27px;
+	padding-right: 27px;
 }
 
 .raspberry_for_free {
@@ -56,42 +63,91 @@ header > a {
 .top_products {
 	width: 1146px;
 	outline: 1px solid red;
-	font-size: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	font-size: 0px;	
+	padding-left: 27px;
+	padding-right: 27px;
 }
 
 .product {
 	width: 267px;
 	display: inline-block;
 	outline: 1px solid green;
-	margin-right: 26px;
+	margin-left: 26px;
 	font-size: 16px;
 	vertical-align: top;
+}
+
+.product:nth-child(1){
+	margin-left: 0px;
 }
 
 .advantages {
 	width: 1146px;
 	outline: 1px solid red;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 27px;
+	margin-right: 27px;
 }
 
 .blog_and_subscription {
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 27px;
+	padding-right: 27px;
 }
 
-div.blog_and_subscription {
-	width: 267px;
+.blog, .subscription {
+	width: 560px;
 	display: inline-block;
 	outline: 1px solid green;
 	margin-right: 26px;
 	font-size: 16px;
 	vertical-align: top;
+}
+
+.subscription {
+	margin-right: 0px;
+}
+
+.contacts {
+	width: 1200px;
+	height: 429px;
+	outline: 1px solid red;
+}
+
+footer {
+	width: 1146px;
+	vertical-align: top;
+	padding-left: 27px;
+	padding-right: 27px;
+	outline: 1px solid red;
+	font-size: 0px;
+}
+
+.socials {
+	display: inline-block;
+	width: 267px;
+	padding: 0px;
+	outline: 1px solid green;
+	font-size: 16px;
+}
+
+.footer_menu {
+	display: inline-block;
+	width: 560px;
+	padding: 0px;
+	margin-left: 26px;
+	margin-right: 26px;
+	outline: 1px solid green;
+	font-size: 16px;
+}
+
+.made_by {
+	display: inline-block;
+	width: 267px;
+	outline: 1px solid green;
+	padding: 0px;
+	font-size: 16px;
 }
 
 
