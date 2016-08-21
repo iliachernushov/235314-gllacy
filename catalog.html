@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -96,11 +97,13 @@
 			<li class="devider"> >> </li>
 			<li> Сливочное </li>
 		</ul>
+
+		<h1>Сливочное мороженое</h1>
 	</section>
 
 	<section class="sort_panel">
 		<form>
-			<div class="popularity">
+			<div class="sort_by">
 				<span class="title"> Сортировка: </span>
 				<select>
 					<option> по популярности </option>
@@ -110,13 +113,13 @@
 				</select>
 			</div>
 
-			<div class="cost">
-				<label> class="title"> Цена: 100 руб. - 500 руб.
+			<div class="sort_by_cost">
+				<label class="title"> Цена: 100 руб. - 500 руб.
 					<input type="range">
 				</label>
 			</div>
 
-			<div class="fatness">
+			<div class="sort_by_fatness">
 				<label class="title"> Жирность:
 					<input type="radio" name="fatness_value" value="0"> 0%
 					<input type="radio" name="fatness_value" value="0-10"> до 10%
@@ -125,8 +128,8 @@
 				</label>
 			</div>
 
-			<div class="fillers">
-				<label> class="title"> Наполнители:
+			<div class="sort_by_fillers">
+				<label class="title"> Наполнители:
 					<input type="checkbox" name="fatness_value" value="chokolate" checked> шоколадные
 					<input type="checkbox" name="fatness_value" value="sugar_topping" checked> сахарные присыпки
 					<input type="checkbox" name="fatness_value" value="fruits"> фрукты
@@ -326,7 +329,7 @@
 			</ul>
 		</div>
 
-		<div>
+		<div class="made_by">
 			<a href="#"><img src="#" alt="logo"></a>
 			<p>Сделано в <a href="#"> HTML Academy </a> &#169; 2016 </p>
 		</div>

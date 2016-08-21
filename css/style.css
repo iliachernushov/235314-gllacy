@@ -1,4 +1,5 @@
 body {
+	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -9,13 +10,13 @@ header {
 	padding-right: 27px;
 	outline: 1px solid red;
 	background-color: red;
-	vertical-align: top;
 	font-size: 0px;
 }
 
 header > a {
 	display: inline-block;
 	width: 154px;
+	vertical-align: top;
 }
 
 .menu {
@@ -25,6 +26,7 @@ header > a {
 	background-color: green;
 	font-size: 16px;
 	padding: 0px;
+	vertical-align: top;
 }
 
 .user_panel {
@@ -35,9 +37,16 @@ header > a {
 	font-size: 16px;
 	text-align: right;
 	padding: 0px;
+	vertical-align: top;
+}
+
+.site_wrapper {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .promo {
+	margin-top: 41px;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
@@ -60,7 +69,8 @@ header > a {
 	font-size: 16px;
 }
 
-.top_products {
+.top_products, .products {
+	margin-top: 40px;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;	
@@ -73,11 +83,12 @@ header > a {
 	display: inline-block;
 	outline: 1px solid green;
 	margin-left: 26px;
+	margin-bottom: 44px;
 	font-size: 16px;
 	vertical-align: top;
 }
 
-.product:nth-child(1){
+.product:nth-child(1), .product:nth-child(5), .product:nth-child(9) {
 	margin-left: 0px;
 }
 
@@ -86,9 +97,11 @@ header > a {
 	outline: 1px solid red;
 	margin-left: 27px;
 	margin-right: 27px;
+	margin-top: 44px;
 }
 
 .blog_and_subscription {
+	margin-top: 40px;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
@@ -110,14 +123,25 @@ header > a {
 }
 
 .contacts {
+	margin-top: 40px;
 	width: 1200px;
 	height: 429px;
 	outline: 1px solid red;
+	padding: 1px;
+}
+
+.address_phone_form {
+	width: 300px;
+	margin-right: 26px;
+	margin-bottom: 61px;
+	margin-top: 60px;
+	margin-left: 873px;
+	outline: 1px solid green;
 }
 
 footer {
+	padding-top: 19px;
 	width: 1146px;
-	vertical-align: top;
 	padding-left: 27px;
 	padding-right: 27px;
 	outline: 1px solid red;
@@ -130,6 +154,7 @@ footer {
 	padding: 0px;
 	outline: 1px solid green;
 	font-size: 16px;
+	vertical-align: top;
 }
 
 .footer_menu {
@@ -140,6 +165,7 @@ footer {
 	margin-right: 26px;
 	outline: 1px solid green;
 	font-size: 16px;
+	vertical-align: top;
 }
 
 .made_by {
@@ -148,7 +174,71 @@ footer {
 	outline: 1px solid green;
 	padding: 0px;
 	font-size: 16px;
+	vertical-align: top;
 }
 
+.paginator {
+	width: 267px;
+	padding-left: 906px;
+	padding-right: 27px;
+	padding-top: 42px;
+	padding-bottom: 30px;
+}
 
+.sort_panel {
+	width: 1146px;
+	padding-left: 27px;
+	padding-right: 27px;
+	margin-top: 37px;
+	outline: 1px solid red;
+	font-size: 0px;
+}
+
+.sort_by {
+	display: inline-block;
+	width: 193px;
+	font-size: 16px;
+	outline: 1px solid green;
+	vertical-align: top;
+	margin-right: 16px;
+	margin-bottom: 18px;
+}
+
+.sort_by_cost {
+	display: inline-block;
+	width: 218px;
+	font-size: 16px;
+	outline: 1px solid green;
+	vertical-align: top;
+	margin-right: 16px;
+	margin-bottom: 18px;
+}
+
+.sort_by_fatness {
+	display: inline-block;
+	width: 414px;
+	font-size: 16px;
+	outline: 1px solid green;
+	vertical-align: top;
+	margin-right: 16px;
+	margin-bottom: 18px;
+}
+
+.sort_by_fillers {
+	display: inline-block;
+	width: 702px;
+	font-size: 16px;
+	outline: 1px solid green;
+	vertical-align: top;
+	margin-right: 16px;
+}
+
+button {
+	font-size: 16px;
+}
+
+h1 {
+	width: 1200px;
+	padding-left: 27px;
+}
 
