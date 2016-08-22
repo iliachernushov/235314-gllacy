@@ -1,7 +1,7 @@
+/* Каждый цельный горизонтальный блок выровнять по горизонтали через margin auto */
+
 body {
 	padding-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 header {
@@ -11,6 +11,8 @@ header {
 	outline: 1px solid red;
 	background-color: red;
 	font-size: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header > a {
@@ -47,6 +49,8 @@ header > a {
 
 .promo {
 	margin-top: 41px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
@@ -71,6 +75,8 @@ header > a {
 
 .top_products, .products {
 	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;	
@@ -102,6 +108,8 @@ header > a {
 
 .blog_and_subscription {
 	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 1146px;
 	outline: 1px solid red;
 	font-size: 0px;
@@ -124,6 +132,8 @@ header > a {
 
 .contacts {
 	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 1200px;
 	height: 429px;
 	outline: 1px solid red;
@@ -146,6 +156,8 @@ footer {
 	padding-right: 27px;
 	outline: 1px solid red;
 	font-size: 0px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .socials {
@@ -190,6 +202,8 @@ footer {
 	padding-left: 27px;
 	padding-right: 27px;
 	margin-top: 37px;
+	margin-left: auto;
+	margin-right: auto;
 	outline: 1px solid red;
 	font-size: 0px;
 }
