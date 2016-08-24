@@ -64,6 +64,7 @@ header > a {
 	outline: 1px solid green;
 	margin-right: 26px;
 	font-size: 16px;
+	background-image: url(img/raspberry.jpg);
 }
 
 .chocolate_for_free {
